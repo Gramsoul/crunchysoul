@@ -1,0 +1,41 @@
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #213944;
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+}
+footer .footer__content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: fit-content;
+    margin: 30px 0;
+    color: #FFF;
+}
+footer .footer__content h1{
+    color: #9683ff;
+    width: fit-content;
+    transition: color .2s ease;
+}
+footer .footer__content h1:hover{
+    color: #FFF;
+}
+footer .footer__content a{
+    color: #FFF;  
+    text-decoration: underline;
+    transition: color .2s ease;
+}
+footer .footer__content a:hover{
+    color: grey;
+}
+footer .footer__content ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .footer__content ul li{
+    margin-left: -40px;
+}

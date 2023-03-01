@@ -61,7 +61,7 @@
   transform: scaleY(1);
   visibility: visible;
   position: relative;
-  padding: 0;
+ 
 }
 .block {
   overflow: hidden;

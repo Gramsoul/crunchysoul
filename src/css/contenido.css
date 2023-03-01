@@ -1,0 +1,113 @@
+
+.contenido {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+  }
+  .section{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    z-index: 10;
+    position: relative;
+  }
+  /*-------- INFO IZQ -----------*/
+  .info_izq{
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    content: "";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .info_izq div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .info_izq img {
+    width: 150px;
+  }
+  .info_izq img:first-child{
+    margin-top: 30px;
+    width: 250px;
+  }
+  /*-------- IMAGENES -----------*/
+  .cont_imagenes{
+    width: 60%;
+    height:100%;
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+  }
+  .photo{
+    filter: drop-shadow(10px 0 0 var(--box));
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 95%;
+    margin-top: 5%;
+    position: relative;
+    opacity: 1;
+    transition: opacity .8s ease-in-out; 
+  
+  }
+  .photo_inv{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+  }
+  /*-------- CAMBIO VISUAL -----------*/
+  .cambio_visual{
+    width: 10%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-self: flex-start;
+    position: relative;
+  }
+  .rotate {
+    width: 130%;
+    height: fit-content;
+    margin-left: 15px;
+    transform: rotate(90deg) translateX(58%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    color: var(--btnPrim);
+    letter-spacing: 1px;
+  }
+  .rotate span{
+    filter: contrast(.6);
+  }
+  .line{
+    width: 15px;
+    height: 1px;
+    border-bottom: 1px solid var(--btnPrim) ;
+  }
+  .line:first-of-type{
+    margin-left: 5px;
+  }
+  .cuad{
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    border: 1px solid var(--btnPrim);
+    transform: rotate(45deg);
+    transition: transform .5s,
+                background-color .5s;
+  }
+  .active_cuad{
+    background-color: var(--btnPrim);
+    transform: rotate(45deg) scale(1.2);
+  }

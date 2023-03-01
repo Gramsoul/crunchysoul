@@ -5,8 +5,9 @@
     position: relative;
 }
 
-.video video{
+.video iframe{
     transform: translateY(-28%);
+    width: 100%;
 }
 
 .video::before{

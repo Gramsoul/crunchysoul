@@ -1,11 +1,11 @@
-import './style.css'
-import './src/css/header.css'
-import './src/css/overlay.css'
-import './src/css/contenido.css'
-import './src/css/divisor.css'
-import './src/css/video.css'
-import './src/css/twitter.css'
-import './src/css/footer.css'
+// import './style.css'
+// import './src/css/header.css'
+// import './src/css/overlay.css'
+// import './src/css/contenido.css'
+// import './src/css/divisor.css'
+// import './src/css/video.css'
+// import './src/css/twitter.css'
+// import './src/css/footer.css'
 
 
 
